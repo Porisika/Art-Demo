@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/*文档背景颜色*/
+body {
+  background-color: #f8f8f8;
+}
+/*设置信息栏*/
+.property-info {
+  width: 50%;
+  height: 30px;
+  margin: 0 auto 50px;
+  font-size: 0.8rem;
+  text-align: center;
+}
+.property-info ul {
+  list-style: none;
+}
+.property-info ul li {
+  display: inline-block;
+  margin-left: 20px;
+  color: #353535;
+}
+/*设置底部导航栏*/
+.footer {
+  width: 100%;
+  height: 50px;
+  line-height: 40px;
+  background-color: #18171d;
+  color: white;
+  text-align: center;
+  font-size: 0.7rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  /*每个按钮设置*/
+}
+.footer .footer-btn {
+  width: 33%;
+  height: 100%;
+  border: 1px solid transparent;
+  float: left;
+  /*设置span标签为块级元素*/
+}
+.footer .footer-btn span {
+  display: block;
+}
+.footer .footer-btn .icon {
+  font-size: 1.6rem;
+  margin-top: 5px;
+}
+.footer .footer-btn .title {
+  margin-top: -10px;
+}

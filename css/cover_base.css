@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/*文档背景颜色*/
+body {
+  background-color: #f8f8f8;
+}
+/*设置信息栏*/
+.property-info {
+  width: 50%;
+  height: 30px;
+  margin: 0 auto 50px;
+  font-size: 0.8rem;
+  text-align: center;
+}
+.property-info ul {
+  list-style: none;
+}
+.property-info ul li {
+  display: inline-block;
+  margin-left: 20px;
+  color: #353535;
+}
+/*设置底部导航栏*/
+.footer {
+  width: 100%;
+  height: 50px;
+  line-height: 40px;
+  background-color: #18171d;
+  color: white;
+  text-align: center;
+  font-size: 0.7rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  /*每个按钮设置*/
+}
+.footer .footer-btn {
+  width: 33%;
+  height: 100%;
+  border: 1px solid transparent;
+  float: left;
+  /*设置span标签为块级元素*/
+}
+.footer .footer-btn span {
+  display: block;
+}
+.footer .footer-btn .icon {
+  font-size: 1.6rem;
+  margin-top: 5px;
+}
+.footer .footer-btn .title {
+  margin-top: -10px;
+}
+/*头部导航栏样式设置*/
+.header {
+  width: 600px;
+  height: auto;
+  border: 1px solid transparent;
+  margin: 20px auto;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 6px #a4a5aa;
+  text-align: center;
+  padding-bottom: 20px;
+  /*页面标题设置*/
+  /*中间商品样式设置*/
+}
+.header .title {
+  width: 580px;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid #e7e7e7;
+  margin: 10px auto 40px;
+  text-align: left;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+.header .goods {
+  width: 548px;
+  height: auto;
+  margin: 0 auto;
+  /*信息条设置*/
+}
+.header .goods .goods-list {
+  width: 548px;
+  height: 180px;
+  background-color: white;
+  margin: 0 auto 10px;
+  position: relative;
+  padding: 10px;
+  box-sizing: border-box;
+  /*图片宽度设置*/
+  /*描述文字样式设置*/
+}
+.header .goods .goods-list .goods-img {
+  width: 210px;
+  height: 160px;
+}
+.header .goods .goods-list .goods-img img {
+  width: 100%;
+  height: 100%;
+}
+.header .goods .goods-list .goods-info {
+  width: 310px;
+  height: 160px;
+  line-height: 30px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: #3b3b3b;
+  text-align: left;
+  /*购物车图标*/
+}
+.header .goods .goods-list .goods-info .price {
+  color: #fe6600;
+  font-weight: 600;
+}
+.header .goods .goods-list .goods-info .cart {
+  font-size: 20px;
+  color: #abb4bb;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+.header .goods .goods-list .goods-info .cart span {
+  border-radius: 60%;
+  font-size: 10px;
+  padding: 0 2px ;
+  background-color: #42ba00;
+  color: white;
+}
